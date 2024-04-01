@@ -1,0 +1,38 @@
+Certainly! Here's a guide that includes instructions on how to approach the solution, how to run the 
+Python file to generate the output, and the dependencies required:
+
+1. Approach to the Solution:
+Data Processing:
+        Read the text files from the specified directory.
+       Tokenize the text into words and sentences.
+       Clean the text by removing stopwords and punctuation.
+Text Analysis:
+       Calculate the required metrics such as average sentence length, percentage of complex words, and fog index for readability.
+       Count the total number of words, complex words, and syllables per word.
+       Identify personal pronouns.
+       Calculate the average word length.
+Output Generation:
+      Store the computed metrics for each document in a structured format (e.g., DataFrame).
+      Save the structured data to an Excel file.
+
+2. How to Run the .py File to Generate Output:
+      Ensure you have Python installed on your system. 
+      Open a text editor or an Integrated Development Environment (IDE) such as Visual Studio Code or Jupyter Notebook.
+      Copy the provided Python code into a new Python file (e.g., text_analysis.py).
+      Save the file.
+      Open a terminal or command prompt.
+      Navigate to the directory where the Python file is saved.
+      Wait for the script to process the text files and generate the output.
+      Once the script finishes execution, check the specified output directory for the generated Excel file containing the analysis results.
+
+
+3. Dependencies Required:
+       Python: Ensure Python is installed on your system. You can download it from https://www.python.org/downloads/
+       NLTK (Natural Language Toolkit): Install NLTK library using pip:
+              pip install nltk
+       Pyphen: Install Pyphen library using pip:
+              pip install pyphen
+       Pandas: Install Pandas library using pip:
+              pip install pandas
+Make sure to install these dependencies before running the Python script. You can install them using the provided 
+pip commands in your terminal or command prompt.
